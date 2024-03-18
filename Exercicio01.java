@@ -27,16 +27,7 @@ public static void executar(){
         
     }
     
-   
     
-   
-
-
-
-
-
-    
-    leitor.close();
-}
+leitor.close();}
 
 }
