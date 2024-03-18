@@ -13,13 +13,13 @@ public static void executar(){
  for(int i=0;i<5;i++){
    
      if(num[i]>0){
-        System.out.println(" O numero da posição: " +i+" e positivo.");
+        System.out.println(" O numero da posição: " +(i+1)+"° e positivo.");
 
      }else if(num[i]<0){
-        System.out.println(" O numero da posição: " +i+" e negativo.");
+        System.out.println(" O numero da posição: " +(i+1)+"° e negativo.");
 
      }else{
-        System.out.println(" O numero da posição: " +i+" e igual a zero.");
+        System.out.println(" O numero da posição: " +(i+1)+"° e igual a zero.");
      }
 
  }
